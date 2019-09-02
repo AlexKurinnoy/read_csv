@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+#downLink{
+     font-family: "Arial Black";
+     font-size: 22px;
+ }
+ #log, #eset{
+     display: none;
+ }
+ a.button, #send  {
+     border: 1px solid black;
+     -webkit-appearance: button;
+     -moz-appearance: button;
+     appearance: button;
+     background-color: dodgerblue;
+     text-decoration: none;
+     color: white;
+     text-align: center;
+     font-weight: bold;
+     padding: 10px;
+     display: block;
+     width:150px;
+     margin: 0 auto;
+     -webkit-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+     box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+     cursor: pointer;
+ }
+a.button:hover, #send:hover {
+    -webkit-box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 7px 0px rgba(0,0,0,0.75);
+}
+#argis, #eset, #log{
+    margin-top: 100px;
+}
+#argis p, #eset p{
+    text-align: center;
+}
+ .subtext{
+     padding-top: 20px;
+     padding-bottom: 20px;
+     widows: 100%;
+     background-color: dodgerblue;
+     -webkit-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+     -moz-box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+     box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.75);
+ }
+.subtext p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-transform: uppercase;
+    font-size: 22px;
+    text-align: center;
+}
+
+.inpbox{
+    clear: left;
+    text-align: center;
+}
+.inpbox p{
+    margin-bottom: 5px;
+}
+.inpbox input{
+    height: 20px;
+}
+
+#send{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 16px;
+}
+#log h2{
+    font-size: 22px;
+    color: darkslategrey;
+    text-align: center;
+}
